@@ -5,7 +5,7 @@ This repository contains my original hardware designs developed in KiCad 10. The
 ## 1. 12V AC to 5V DC Linear Power Supply
    This project is a regulated power supply designed to convert 12V AC input into a stable 5V DC output.
    ## Technical Design Details
-      * Rectification Stage:
+      * Rectification Stage: 
             Uses a full-bridge rectifier consisting of four 1N4007 diodes to convert the AC input to pulsating DC.
       * Regulation:
             Features an LM7805 linear regulator in a TO-220 package to provide a constant 5V output.
