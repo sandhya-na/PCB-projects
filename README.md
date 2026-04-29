@@ -21,11 +21,11 @@ This repository contains my original hardware designs developed in KiCad 10. The
 ## 2. Adjustable DC-DC Buck Converter
    This project is a high-efficiency switching regulator based on the **LM2596-ADJ** IC, used for stepping down DC voltages.
    ### Technical Design Details
-    * ### Switching Regulator:
+    ### *  Switching Regulator:
            Powered by the **LM2596S-ADJ**, which operates at a switching frequency of **150kHz** for high efficiency.
-    * ### Adjustable Output:
+    ### * Adjustable Output:
           Uses a **10kΩ** potentiometer (RV1) in the feedback loop, allowing the user to precisely set the desired output voltage.
-    * ### Power Components:
+    ### * Power Components:
        - A **47µH** inductor (L1) and a Schottky diode (D2) are used for energy storage and current steering during the switching cycle.         -  Features a **100µF** input cap and a **220µF** output cap to stabilize the switching waveforms.
     * ### Indication:
            Includes a power-on LED with a **4.7kΩ** resistor.
@@ -38,7 +38,7 @@ For this layout, I focused on Power Integrity:
   
 # Tools & Methodology
 ### * Software: KiCad 10.0
-    * **Process**: Schematic Capture → Footprint Assignment → PCB Routing → 3D Visualization → PDF Documentation.
+### * Process : Schematic Capture → Footprint Assignment → PCB Routing → 3D Visualization → PDF Documentation.
 
 
 
